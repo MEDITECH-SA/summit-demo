@@ -1,6 +1,7 @@
 # MediBlog
     TThis is a Meditech Blog Web App that allows developers to discuss certain topics.
-    With MediBlog, you can write and describe any challenge you are facing. Colleagues and other users can comment and provide insight into your challenges.
+    With MediBlog, you can write and describe any challenge you are facing.
+    Colleagues and other users can comment and provide insight into your challenges.
     Although this is only a basic website, we want to improve it over time.
 
 
