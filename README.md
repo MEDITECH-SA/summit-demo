@@ -21,7 +21,7 @@
 - Copy your ssh public key and paste on on git: `https://github.com/settings/keys`
 - Your keys should look like this" `SHA256:kjfDkLdlkHdlkslJdsdGWpP` 'Note this wont work'
 
-## How to run the APP on windows OS
+## How to run the APP on Windows OS
 - set FLASK_APP=app
 - flask run -p 5005
 
