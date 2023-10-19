@@ -23,7 +23,7 @@
 
 ## How to run the APP on windows OS
 - set FLASK_APP=app
-- flask run -p 5005 / pyhon3 -m flask run -p 5005
+- flask run -p 5005 / python3 -m flask run -p 5005
 
 ## How to run the APP on Linux OS
 - export FLASK_APP=app
