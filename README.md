@@ -9,7 +9,7 @@
 - On your machine, download and install git: https://desktop.github.com/
 - Download and install Python3: https://www.python.org/downloads/
 - Run this command to install dependencies: `pip install -r requirements.txt`
-- If the above command fails, run: `python3 -m pip install requirements.txt`
+- If the above command fails, run: `python3 -m pip install -r requirements.txt`
 - Download MediBlog, Open github and run: `git clone git@github.com:MEDITECH-SA/summit-demo.git` Check the next step if you don't have access.
 
 ## Generating SSH key for access
@@ -23,7 +23,7 @@
 
 ## How to run the APP on Windows OS
 - set FLASK_APP=app
-- flask run -p 5005
+- flask run -p 5005 / python3 -m flask run -p 5005
 
 ## How to run the APP on Linux OS
 - export FLASK_APP=app
