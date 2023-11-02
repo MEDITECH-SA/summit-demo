@@ -81,3 +81,5 @@ def delete(id):
     return redirect(url_for('index'))
 
 # Testing
+
+# Create new user with admin rights
