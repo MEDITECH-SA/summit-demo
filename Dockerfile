@@ -2,11 +2,9 @@
 FROM python:3.11-slim-buster
 
 WORKDIR /app
-COPY ./requirements.txt /app
+COPY . /app
 
 RUN pip3 install -r requirements.txt
-
-COPY . .
 
 EXPOSE 5000
 ENV FLASK_APP=app.py
