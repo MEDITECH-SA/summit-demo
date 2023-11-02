@@ -10,9 +10,3 @@ COPY . .
 
 #CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
-
-ADD tests /app/tests
-
-WORKDIR /app
-
-CMD ["python", "-m", "unittest", "discover", "-v", "tests"]
