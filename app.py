@@ -83,3 +83,5 @@ def delete(id):
 # Testing
 
 # Create new user with admin rights
+
+# new code added
